@@ -17,5 +17,4 @@ repos:
     rev: "5.0.4"
     hooks:
       - id: flake8
-        args:
-          ["--max-line-length=100", "--ignore=F401,W503", "--exclude=tests/*"]
+        args: ["--max-line-length=100", "--ignore=F401,W503"]
