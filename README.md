@@ -2,9 +2,14 @@
 
 ## Getting Started
 
-To set up your local development environment, please use a fresh virtual environment (`python -m venv .venv`), then run:
-`source .venv/bin/activate`
-`pip install -r requirements/dev.txt`
+To set up your local development environment, please use a fresh virtual environment
+
+    `python -m venv .venv`
+
+then run:
+
+    `source .venv/bin/activate`
+    `pip install -r requirements/dev.txt`
 
 The upper command will activate the fresh virtual environment, and the lower command will install all the requirements.
 
