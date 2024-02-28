@@ -1,0 +1,11 @@
+name: "Run unit tests"
+Description: "Run unit tests for the project"
+
+runs:
+  using: "composite"
+  steps:
+    - name: "Run unit tests"
+      run: |
+        source .venv/bin/activate &&
+        pytest tests
+```
