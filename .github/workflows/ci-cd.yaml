@@ -21,6 +21,11 @@ jobs:
         with:
           python-version: "3.11" # Adjust Python version as needed
 
+      # - name: Run custom action
+      #   uses: ./.github/actions/custom
+      #   with:
+      #     name: "GitHub User"
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
