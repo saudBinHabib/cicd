@@ -22,7 +22,7 @@ jobs:
           python-version: "3.11" # Adjust Python version as needed
 
       # - name: Run custom action
-      #   uses: ./.github/actions/custom
+      #   uses: ./.github/actions/action
       #   with:
       #     name: "GitHub User"
 
